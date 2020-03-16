@@ -3,8 +3,9 @@ import React from 'react'
 const Greets = (props) => 
 {
 
+    const { name, heroName } = props //funtional destructure
 
-return <h1>Greets {props.name} a.k.a {props.heroName}</h1>
+return <h1>Greets {name} a.k.a {heroName}</h1>
 
 }
  
