@@ -47,7 +47,8 @@ username:event.target.value
 
     FormSubmit=(event)=>{
 console.log(event);
-alert(`${this.state.username}`)
+event.preventDefault();
+alert(`${this.state.username} ${this.state.Skill} ${this.state.comment}`)
 
     }
 

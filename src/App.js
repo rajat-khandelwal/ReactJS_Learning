@@ -13,14 +13,15 @@ import StyleSheet from './Components/StyleSheet'
 import './Components/mystyle.css'
 import style from './Components/mystyle.module.css'
 import From from './Components/form'
+import LifecycleA from './Components/lifecycleA';
 
 
 function App() {
   return (
     <div className="App">
 
-<From/>
-
+{/* <From/> */}
+<LifecycleA/>
 {/* <h1 className='error'>error</h1>
 <h1 className={style.success}>Success</h1>
  */}
